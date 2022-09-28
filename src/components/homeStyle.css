@@ -1,0 +1,15 @@
+button{
+  width:300px;
+  height: 70px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor:pointer;
+  font-size: 30px;
+
+}
+.red{
+  color:red;
+}
+.blue{
+  color:blue;
+}

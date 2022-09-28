@@ -1,0 +1,57 @@
+.table-container {
+  box-sizing: border-box;
+  padding: 0px 27px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 50px; */
+  background-color: #f5f8fe;
+  overflow-x: auto;
+  font-family: "Sofia Pro";
+  border-radius: 15px;
+  height:100vh;
+  display: flex;
+  
+}
+ table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  grid-area: a;
+  margin-top:100px;
+  margin: 0 auto;
+ }
+  tr {
+    cursor: pointer;
+  }
+
+  th {
+    font-family: "Sofia Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #8e919c;
+  }
+
+  td {
+    font-family: "Sofia Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #2254D3 !important;
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 10px 8px;
+    border-bottom: 1px solid #dfe8fc;
+    word-wrap: break-word;
+  }
+  .table-image {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 60px;
+  }
