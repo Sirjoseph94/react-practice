@@ -1,0 +1,28 @@
+.popup {
+  position: absolute;
+  min-width: 150px;
+  /* right: 20px; */
+  /* top: 40px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 1rem;
+  border: 1px solid rgba(33, 51, 79, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+  z-index: 3;
+  border-radius: 10px;
+  z-index: 100;
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #071232;
+}
+p:not(:last-child) {
+  margin-bottom: 12px !important;
+}
+p:hover {
+  display: inline-block;
+}
