@@ -1,10 +1,20 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useContext } from "react";
+import { Context } from "../../context/contextCreator";
 import { Link } from 'react-router-dom'
+
 
 function PracticeUseRef() {
   const [inputValue, setInputValue] = useState("");
   const count = useRef(0);
 
+  const setContext = useContext(Context);
+  
+  const {user} = useContext(Context);
+
+  useEffect(()=>{
+    setContext.setUser("New Elias Imokhai")
+  })
+    
   useEffect(() => {
     count.current = count.current + 1;
   });
